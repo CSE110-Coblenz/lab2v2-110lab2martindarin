@@ -20,6 +20,3 @@ export function printSnacks(): void {
         console.log(`${index + 1}. ${snack}`);
     });
 }
-
-// Call the function to print the snacks
-printSnacks();
