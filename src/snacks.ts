@@ -9,7 +9,7 @@ const snacks: string[] = [
     "Pretzels",
     "Fruit Snacks",
     "Crackers",
-    "Nuts"
+    "Nuts",
     "Popcorn"
 ];
 
