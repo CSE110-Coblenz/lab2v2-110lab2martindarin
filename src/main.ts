@@ -1,3 +1,12 @@
+
+import { printMusic } from "./music";
+
+function main() {
+  printMusic();
+}
+
+main();
+
 import { printSnacks } from './snacks';
 
 // Main function that prints out the snacks
