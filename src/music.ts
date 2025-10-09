@@ -1,4 +1,4 @@
-
+import { animateFeature } from './animation';
 
 const music = ["Hip-Hop", "Rap", "Pop", "R&B"];
 
