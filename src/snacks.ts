@@ -10,6 +10,7 @@ const snacks: string[] = [
     "Fruit Snacks",
     "Crackers",
     "Nuts"
+    "Popcorn"
 ];
 
 // Define and export a function that prints the snacks to the console
