@@ -9,7 +9,11 @@ const snacks: string[] = [
     "Pretzels",
     "Fruit Snacks",
     "Crackers",
-    "Nuts"
+    "Nuts",
+    "Popcorn",
+    "Apples",
+    "Bananas",
+    "Grapes"
 ];
 
 // Define and export a function that prints the snacks to the console
@@ -20,6 +24,3 @@ export function printSnacks(): void {
         console.log(`${index + 1}. ${snack}`);
     });
 }
-
-// Call the function to print the snacks
-printSnacks();
