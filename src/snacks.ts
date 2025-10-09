@@ -1,11 +1,11 @@
-// src/snacks.ts
 
-const snacks = ["Chips", "Guacamole", "Cookies", "Popcorn"];
 
-export function printSnacks() {
-  console.log("Snacks for the party:");
-  snacks.forEach((snack) => console.log("- " + snack));
+const music = ["Hip-Hop", "Rap", "Pop", "R&B"];
+
+export function printMusic() {
+  console.log("Music for the party:");
+  music.forEach((genre) => console.log("- " + genre));
 }
 
-// Run the function
-printSnacks();
+
+printMusic();
