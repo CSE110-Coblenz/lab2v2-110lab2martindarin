@@ -1,20 +1,12 @@
 
 import { printMusic } from "./music";
-
-function main() {
-  printMusic();
-}
-
-main();
-
 import { printSnacks } from './snacks';
 
-// Main function that prints out the snacks
-function main(): void {
+function main() {
     console.log("Welcome to the main program!");
     console.log(""); // Empty line for spacing
     printSnacks();
+    printMusic();
 }
 
-// Call the main function
 main();
