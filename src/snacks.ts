@@ -4,6 +4,16 @@ import { animateFeature } from './animation';
 export const snacks: string[] = [
     "Chips",
     "Cookies",
+    "Granola Bar",
+    "Trail Mix",
+    "Pretzels",
+    "Fruit Snacks",
+    "Crackers",
+    "Nuts",
+    "Popcorn",
+    "Apples",
+    "Bananas",
+    "Grapes"
 ];
 
 // Define and export a function that prints the snacks to the console
