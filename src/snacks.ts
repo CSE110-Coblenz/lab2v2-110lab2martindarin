@@ -1,0 +1,22 @@
+// Define a list of snacks
+const snacks: string[] = [
+    "Chips",
+    "Cookies",
+    "Granola Bar",
+    "Trail Mix",
+    "Pretzels",
+    "Fruit Snacks",
+    "Crackers",
+    "Nuts"
+];
+
+// Define and export a function that prints the snacks to the console
+export function printSnacks(): void {
+    console.log("Available snacks:");
+    snacks.forEach((snack, index) => {
+        console.log(`${index + 1}. ${snack}`);
+    });
+}
+
+// Call the function to print the snacks
+printSnacks();
