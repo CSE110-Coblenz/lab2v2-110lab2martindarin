@@ -1,7 +1,7 @@
 import { animateFeature } from './animation';
 
 // Define a list of snacks
-const snacks: string[] = [
+export const snacks: string[] = [
     "Chips",
     "Cookies",
     "Granola Bar",

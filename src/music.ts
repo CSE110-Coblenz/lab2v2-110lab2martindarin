@@ -1,6 +1,6 @@
 import { animateFeature } from './animation';
 
-const music = ["Hip-Hop", "Rap", "Pop", "R&B"];
+export const music = ["Hip-Hop", "Rap", "Pop", "R&B"];
 
 export function printMusic() {
   animateFeature("Music");
